@@ -1,10 +1,10 @@
-# WorkManager 1.0.2 사용 설명서
+# WorkManager 1.0.3 사용 설명서
 
 흐름으로 업무를 관리하고, AI로 요약·정리합니다.
 
-[프로그램 다운로드](https://github.com/1821rpm/workmanager/releases/download/v1.0.2/WorkManager.exe) · [HTML 설명서 다운로드](https://github.com/1821rpm/workmanager/releases/download/v1.0.2/WorkManager-Manual-1.0.2.html) · [처음 화면으로](../README.md)
+[프로그램 다운로드](https://github.com/1821rpm/workmanager/releases/download/v1.0.3/WorkManager.exe) · [HTML 설명서 다운로드](https://github.com/1821rpm/workmanager/releases/download/v1.0.3/WorkManager-Manual-1.0.3.html) · [처음 화면으로](../README.md)
 
-앱의 **도움말**에서도 설명서를 볼 수 있습니다. 이 페이지는 1.0.2 도움말 원문을 바탕으로 GitHub에서 바로 읽도록 구성했습니다. 그림은 앱의 예시 자료 화면이며 브라우저와 EXE의 글꼴은 조금 다를 수 있습니다.
+앱의 **도움말**에서도 설명서를 볼 수 있습니다. 이 페이지는 1.0.3 도움말 원문을 바탕으로 GitHub에서 바로 읽도록 구성했습니다. 그림은 앱의 예시 자료 화면이며 브라우저와 EXE의 글꼴은 조금 다를 수 있습니다.
 
 WorkManager는 여러 갈래로 동시에 굴러가는 업무를 **흐름**(무엇이 먼저고 무엇이 동시에 가는지)으로 세우고, 그 위에 날마다 **기록**을 쌓고, 쌓인 기록을 **AI**가 요약·정리하게 하는 개인 업무 관리 앱입니다.
 
