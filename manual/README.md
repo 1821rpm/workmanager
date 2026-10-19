@@ -1,10 +1,24 @@
-# WorkManager 1.0.12 사용 설명서
+# WorkManager 1.0.13 사용 설명서
 
-Windows x64용 WorkManager 1.0.12 설명서입니다. 1.0.11의 자료 폴더와 AI 연결 설정을 그대로 이어 사용합니다.
+Windows x64용 WorkManager 1.0.13 설명서입니다. 기존 자료 폴더와 AI 연결 설정을 그대로 이어 사용합니다.
 
-[현재 정식판 다운로드](https://github.com/1821rpm/workmanager/releases/download/v1.0.12/WorkManager.exe) · [현재 정식판 설명서](https://github.com/1821rpm/workmanager/releases/download/v1.0.12/WorkManager-Manual-1.0.12.html) · [프로젝트 첫 화면](../README.md)
+[현재 정식판 다운로드](https://github.com/1821rpm/workmanager/releases/download/v1.0.13/WorkManager.exe) · [현재 정식판 설명서](https://github.com/1821rpm/workmanager/releases/download/v1.0.13/WorkManager-Manual-1.0.13.html) · [프로젝트 첫 화면](../README.md)
 
-앱 안 도움말과 같은 내용입니다. 그림은 예시·합성 자료이며 AI 답은 모의 응답입니다. 업데이트 그림의 1.0.13은 안내 예시입니다.
+앱 안 도움말과 같은 내용입니다. 그림은 예시·합성 자료이며 AI 답은 모의 응답입니다. 업데이트 그림은 이전 판에서 촬영한 안내 예시입니다.
+
+## 1.0.13 안내
+
+- 업데이트를 받거나 다시 시작할 때 최신 버전을 다시 확인하고, 준비된 파일과 종료 시 업데이트 상태를 정리합니다.
+- 링크 붙여넣기·편집 단축키·화면 배치와 그림 읽기 대기를 개선했습니다.
+- 하위 업무 AI 정리를 먼저 끝내고 상위 요약을 갱신하며, 휴지통 비우기를 추가했습니다.
+
+휴지통에서 비우기를 누르면 하위 업무·이력·전용 첨부도 지워집니다. 취소가 기본값이며, 비우기 직전 백업을 남깁니다. 다른 기록이 함께 쓰는 첨부는 유지합니다.
+
+## 알려진 문제
+
+- 1.0.12 이하에서 업데이트하면, 그 판의 업데이트 방식 때문에 1.0.13 전에 한 번 더 업데이트해야 할 수 있다(1.0.13부터 고침).
+- 휴지통 비우기는 되돌릴 수 없다(직전 백업에는 남음).
+
 
 ## 목차
 
