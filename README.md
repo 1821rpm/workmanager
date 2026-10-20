@@ -2,18 +2,28 @@
 
 흐름으로 업무를 관리하고, 쌓인 기록을 AI로 요약·정리하는 Windows 개인 업무 관리 앱입니다.
 
-**최신 버전: 1.1.2** · Windows (x64)
+**최신 버전: 1.1.3** · Windows (x64)
 
 | 필요한 것 | 바로가기 |
 |---|---|
 | 프로그램 | [WorkManager.exe 다운로드](https://github.com/1821rpm/workmanager/releases/latest/download/WorkManager.exe) |
 | 사용 설명서 | **[GitHub에서 바로 읽기](manual/README.md)** |
-| 오프라인 설명서 | [Releases](https://github.com/1821rpm/workmanager/releases/latest)의 [WorkManager-Manual-1.1.2.html](https://github.com/1821rpm/workmanager/releases/download/v1.1.2/WorkManager-Manual-1.1.2.html) — 받은 파일을 더블클릭하면 브라우저에서 열립니다 |
+| 오프라인 설명서 | [Releases](https://github.com/1821rpm/workmanager/releases/latest)의 [WorkManager-Manual-1.1.3.html](https://github.com/1821rpm/workmanager/releases/download/v1.1.3/WorkManager-Manual-1.1.3.html) — 받은 파일을 더블클릭하면 브라우저에서 열립니다 |
 | 변경 내용 · 이전 버전 | [Releases](https://github.com/1821rpm/workmanager/releases) |
 
 ![프로젝트의 개요와 업무 흐름](manual/img/04-project.jpg)
 
 자료 형식 v6를 유지하며 기존 자료 폴더와 AI 연결 설정을 이어 사용합니다.
+
+## 1.1.3에서 달라진 점
+
+- 백업이 실패해도 종료·업데이트를 계속하며 다음 실행에 실패 경로와 작업을 알립니다.
+- 읽기·쓰기 접근 오류에 짧은 재시도를 추가하고, 동시 복사 수를 기본 4개로 낮췄습니다. 설정에서 1~8개로 바꿀 수 있습니다.
+- 일부 파일이 빠진 백업은 「완성되지 않은 백업」으로 보존합니다. 설정 › 백업에서 진단을 확인하고 해당 폴더만 정리합니다.
+- 같은 내용을 다시 저장하거나 AI 한눈 요약만 바뀌면 종료 백업을 건너뜁니다. 지문이 없거나 읽지 못하면 새 백업이 필요한 이유를 표시합니다.
+- 완성 이름 충돌을 피하고 이름 변경의 일시 오류를 최대 60초 동안 재시도합니다.
+
+구판에서 종료 백업에 이미 막혔다면 새 EXE를 별도로 받아 교체해야 할 수 있습니다. 실제 보안 프로그램 환경에서는 추가 확인이 필요합니다.
 
 ## 1.1.2에서 달라진 점
 
