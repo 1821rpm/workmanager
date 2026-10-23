@@ -2,18 +2,34 @@
 
 흐름으로 업무를 관리하고, 쌓인 기록을 AI로 요약·정리하는 Windows 개인 업무 관리 앱입니다.
 
-**최신 버전: 1.1.3** · Windows (x64)
+**최신 버전: 1.1.4** · Windows (x64)
 
 | 필요한 것 | 바로가기 |
 |---|---|
 | 프로그램 | [WorkManager.exe 다운로드](https://github.com/1821rpm/workmanager/releases/latest/download/WorkManager.exe) |
 | 사용 설명서 | **[GitHub에서 바로 읽기](manual/README.md)** |
-| 오프라인 설명서 | [Releases](https://github.com/1821rpm/workmanager/releases/latest)의 [WorkManager-Manual-1.1.3.html](https://github.com/1821rpm/workmanager/releases/download/v1.1.3/WorkManager-Manual-1.1.3.html) — 받은 파일을 더블클릭하면 브라우저에서 열립니다 |
+| 오프라인 설명서 | [Releases](https://github.com/1821rpm/workmanager/releases/latest)의 [WorkManager-Manual-1.1.4.html](https://github.com/1821rpm/workmanager/releases/download/v1.1.4/WorkManager-Manual-1.1.4.html) — 받은 파일을 더블클릭하면 브라우저에서 열립니다 |
 | 변경 내용 · 이전 버전 | [Releases](https://github.com/1821rpm/workmanager/releases) |
 
 ![프로젝트의 개요와 업무 흐름](manual/img/04-project.jpg)
 
 자료 형식 v6를 유지하며 기존 자료 폴더와 AI 연결 설정을 이어 사용합니다.
+
+## 1.1.4에서 달라진 점
+
+- 근거 이력을 모두 영구 삭제했을 때 남아 있던 AI 자세히와 짧은 요약을 정리합니다. 직접 쓴 정리는 보존하고 삭제 안내를 표시합니다.
+- 이력 편집을 열었다가 아무것도 쓰지 않고 닫으면 바뀐 기록으로 세지 않습니다.
+- 정리 칸 안내 말풍선의 떨림과 스크롤 이동을 고치고, 공간이 부족하면 위로 표시합니다.
+- 왼쪽 목록·이력과 정리·현황의 경계를 끝까지 밀어 접습니다. 칸 이름 띠를 누르면 접기 직전 크기로 돌아오며 좁은 화면에서는 칸을 다시 표시합니다.
+- 이력의 문단·표·사진·코드에서 오른쪽 클릭으로 해당 기록의 파일 경로를 복사합니다.
+- AI 요약을 직전 요약 없이 다시 만들고, AI에게 묻기의 내 지침·추측 허용·어긋나는 기록 처리 규칙을 다듬었습니다. 추측 허용은 기본 꺼짐입니다.
+- 묶음 펼치기·접기 단추를 분리하고, 미분류 이력 한 건도 골라 옮길 수 있습니다.
+
+## 1.1.4 알려진 점
+
+- 표·사진이 많은 큰 이력의 열기·입력 속도 개선은 이번 판에 포함되지 않았습니다.
+- 연결한 AI 모델이 추측 금지와 서로 어긋나는 기록의 처리 규칙을 지키는지는 사용하는 모델에서 추가 확인이 필요합니다.
+- 설명서 그림은 기존 예시·합성 화면을 재사용합니다. 새 기능은 이번 판 안내를 함께 참고하세요.
 
 ## 1.1.3에서 달라진 점
 
@@ -38,7 +54,7 @@
 
 ## 알려진 점
 
-- 설명서 그림은 이번 판에서 다시 찍었습니다 — 앱 안 도움말 그림과 글꼴이 미세하게 다를 수 있습니다.
+- 설명서 그림은 기존 예시를 재사용했습니다 — 앱 안 도움말 그림과 글꼴이 미세하게 다를 수 있습니다.
 - 배경 AI 요약을 동시에 5개까지 보냅니다. 연결한 AI 서버가 느려지면 설정에서 1~4로 내리세요.
 
 ## 할 수 있는 일
