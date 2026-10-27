@@ -2,18 +2,34 @@
 
 흐름으로 업무를 관리하고, 쌓인 기록을 AI로 요약·정리하는 Windows 개인 업무 관리 앱입니다.
 
-**최신 버전: 1.1.6** · Windows (x64)
+**최신 버전: 1.1.7** · Windows (x64)
 
 | 필요한 것 | 바로가기 |
 |---|---|
 | 프로그램 | [WorkManager.exe 다운로드](https://github.com/1821rpm/workmanager/releases/latest/download/WorkManager.exe) |
 | 사용 설명서 | **[GitHub에서 바로 읽기](manual/README.md)** |
-| 오프라인 설명서 | [Releases](https://github.com/1821rpm/workmanager/releases/latest)의 [WorkManager-Manual-1.1.6.html](https://github.com/1821rpm/workmanager/releases/download/v1.1.6/WorkManager-Manual-1.1.6.html) — 받은 파일을 더블클릭하면 브라우저에서 열립니다 |
+| 오프라인 설명서 | [Releases](https://github.com/1821rpm/workmanager/releases/latest)의 [WorkManager-Manual-1.1.7.html](https://github.com/1821rpm/workmanager/releases/download/v1.1.7/WorkManager-Manual-1.1.7.html) — 받은 파일을 더블클릭하면 브라우저에서 열립니다 |
 | 변경 내용 · 이전 버전 | [Releases](https://github.com/1821rpm/workmanager/releases) |
 
 ![프로젝트의 개요와 업무 흐름](manual/img/04-project.jpg)
 
 자료 형식 v6를 유지하며 기존 자료 폴더와 AI 연결 설정을 이어 사용합니다.
+
+## 1.1.7에서 달라진 점
+
+- 이력은 어디에 있든 같은 단추를 씁니다 — 크게 보기 · 편집 · 옮기기… · 휴지통으로 · 이 업무로(다른 업무의 이력일 때). 오른쪽 클릭 「이력」 묶음에도 옮기기·휴지통이 있습니다.
+- 일상 업무·그룹의 「기록」 탭도 다른 프로젝트와 같은 이력 화면입니다. 일상 업무에 바로 적은 이력도 편집·옮기기·휴지통이 됩니다.
+- 이력 흐름의 「모두 펼치기」는 모든 이력을 펼치고, 흐름 목록에 펼친 이력이 옅게 칠해집니다. 내려 읽으면 지금 보이는 이력의 번호가 진하게 따라갑니다.
+- 글을 골라 「AI ▸ 요약」을 누르면 한 줄 요약과 핵심 3개가 함께 나옵니다. 표가 필요하면 창 위 탭에서 「표로 정리」를 고릅니다.
+- AI 답의 「복사」는 근거 번호를 빼고 복사하고, ▾ 「근거 포함 복사」는 번호 대신 기록 이름·날짜를 붙입니다.
+- 자료의 링크 주소·경로는 그 줄의 「편집」으로 고칩니다. 상위 화면에서 펼친 하위 업무 자료도 고칠 수 있습니다.
+- AI 연결은 설정 › AI 연결의 「연결 코드 복사」로 한 줄 글자로 보내고, 받는 쪽은 복사한 뒤 「연결 코드 넣기」를 누릅니다. 받은 설정 파일은 창에 끌어다 놓아도 됩니다.
+- Windows 시작 때 자동으로 켜지는 것이 기본입니다. 설정 › 시작 · 알림에서 끌 수 있습니다.
+- 자료 형식 v6와 기존 자료 폴더·AI 연결 설정을 이어 사용합니다. 연결 코드와 설정 파일 끌어다 놓기는 1.1.7 EXE(Native API 12)가 필요합니다.
+- 연결 코드는 암호화가 아니라 글자로 바꾼 것입니다 — 키를 넣었다면 받을 사람에게만 보내세요.
+- 화면 용어를 맞췄습니다: 상위 업무, 회의 AI 요약, 다시 만들기, 크게 보기, 이력만 보기.
+- 설명서 그림 15장은 1.1.7 화면의 합성 예시로 다시 만들었으며, 요약 확인 그림 1장은 기존 합성 예시를 포함합니다.
+
 
 ## 1.1.6에서 달라진 점
 
